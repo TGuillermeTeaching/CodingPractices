@@ -1,0 +1,13 @@
+---
+title: How to write code
+Thomas Guillerme (guillert@tcd.ie)
+`r Sys.Date()`
+bibliography: [References.bib]
+output:
+  html_document: default
+  pdf_document: default
+---
+
+
+# How to write code
+A new chapter...

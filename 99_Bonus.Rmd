@@ -1,0 +1,13 @@
+---
+title: Bonus
+Thomas Guillerme (guillert@tcd.ie)
+`r Sys.Date()`
+bibliography: [References.bib]
+output:
+  html_document: default
+  pdf_document: default
+---
+
+
+# Bonus
+A new chapter...

@@ -1,0 +1,13 @@
+---
+title: Organise your work
+Thomas Guillerme (guillert@tcd.ie)
+`r Sys.Date()`
+bibliography: [References.bib]
+output:
+  html_document: default
+  pdf_document: default
+---
+
+
+# Organise your work
+A new chapter...

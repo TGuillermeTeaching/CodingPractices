@@ -1,0 +1,13 @@
+---
+title: Version control
+Thomas Guillerme (guillert@tcd.ie)
+`r Sys.Date()`
+bibliography: [References.bib]
+output:
+  html_document: default
+  pdf_document: default
+---
+
+
+# Version control
+A new chapter...
