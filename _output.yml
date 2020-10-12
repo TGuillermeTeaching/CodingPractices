@@ -13,4 +13,4 @@ bookdown::gitbook:
         <li><a href="./">Good coding practices</a></li>
       after: |
         <li><a href="https://github.com/TGuillermeTeaching/CodingPractices/" target="blank">Project GitHub page</a></li>
-    edit: https://github.com/TGuillermeTeaching/CodingPractices/gitbook/edit/master/%s
+    edit: https://github.com/TGuillermeTeaching/CodingPractices/edit/master/%s
