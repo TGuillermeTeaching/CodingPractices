@@ -33,19 +33,22 @@ done
 
 ## Set up the variables
 CHAPTER_TITLE=$(echo ${CHAPTER_NAME} | sed 's/_/ /g')
-FILE_NAME="${CHAPTER_NUMBER}_${CHAPTER_NAME}.Rmd"
+FILE_NAME="${CHAPTER_NUMBER}_${CHAPTER_NAME}"
 
 ## Initiate the chapter
-echo "---" > ${FILE_NAME}
-echo "title: ${CHAPTER_TITLE}" >> ${FILE_NAME}
-echo "Thomas Guillerme (guillert@tcd.ie)" >> ${FILE_NAME}
-echo "\`r Sys.Date()\`" >> ${FILE_NAME}
-echo "bibliography: [References.bib]" >> ${FILE_NAME}
-echo "output:" >> ${FILE_NAME}
-echo "  html_document: default" >> ${FILE_NAME}
-echo "  pdf_document: default" >> ${FILE_NAME}
-echo "---" >> ${FILE_NAME}
-echo "" >> ${FILE_NAME}
-echo "" >> ${FILE_NAME}
-echo "# ${CHAPTER_TITLE}" >> ${FILE_NAME}
-echo "A new chapter..." >> ${FILE_NAME}
+echo "---" > ${FILE_NAME}.Rmd
+echo "title: ${CHAPTER_TITLE}" >> ${FILE_NAME}.Rmd
+echo "Thomas Guillerme (guillert@tcd.ie)" >> ${FILE_NAME}.Rmd
+echo "\`r Sys.Date()\`" >> ${FILE_NAME}.Rmd
+echo "bibliography: [References.bib]" >> ${FILE_NAME}.Rmd
+echo "output:" >> ${FILE_NAME}.Rmd
+echo "  html_document: default" >> ${FILE_NAME}.Rmd
+echo "  pdf_document: default" >> ${FILE_NAME}.Rmd
+echo "---" >> ${FILE_NAME}.Rmd
+echo "" >> ${FILE_NAME}.Rmd
+echo "" >> ${FILE_NAME}.Rmd
+echo "# ${CHAPTER_TITLE}" >> ${FILE_NAME}.Rmd
+echo "A new chapter..." >> ${FILE_NAME}.Rmd
+
+## Add the chapter folder
+mkdir ${FILE_NAME}
