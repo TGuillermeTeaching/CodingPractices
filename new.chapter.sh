@@ -38,9 +38,9 @@ FILE_NAME="${CHAPTER_NUMBER}_${CHAPTER_NAME}"
 ## Initiate the chapter
 echo "---" > ${FILE_NAME}.Rmd
 echo "title: ${CHAPTER_TITLE}" >> ${FILE_NAME}.Rmd
-echo "Thomas Guillerme (guillert@tcd.ie)" >> ${FILE_NAME}.Rmd
-echo "\`r Sys.Date()\`" >> ${FILE_NAME}.Rmd
-echo "bibliography: [References.bib]" >> ${FILE_NAME}.Rmd
+echo "author: Thomas Guillerme (guillert@tcd.ie)" >> ${FILE_NAME}.Rmd
+echo "date: \`r Sys.Date()\`" >> ${FILE_NAME}.Rmd
+echo "bibliography: [references.bib]" >> ${FILE_NAME}.Rmd
 echo "output:" >> ${FILE_NAME}.Rmd
 echo "  html_document: default" >> ${FILE_NAME}.Rmd
 echo "  pdf_document: default" >> ${FILE_NAME}.Rmd
