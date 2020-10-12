@@ -1,1 +1,1 @@
-# INIT
+# Coding practices
