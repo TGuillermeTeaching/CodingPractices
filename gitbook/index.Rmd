@@ -1,0 +1,45 @@
+--- 
+title: "Good coding practices"
+author: "Thomas Guillerme (guillert@tcd.ie)"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+bibliography: [References.bib]
+link-citations: yes
+github-repo: TGuillermeTeaching/CodingPractices
+description: "Humble steps for good coding practices (and better science)"
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Introduction questions
+
+## Who is this for?
+
+## Who isn't this for?
+
+## What do I need?
+
+## How is this going to work?
+
+## Who am I (the author)?
+
+## Why is this guide full of typos?
+
+Is this bad for coding?
+No. Autofill.
+
+
+
+
+# Starting moves
+
+
+## What software do you need
+
+- Give some examples of nice free software
+- Tell about software that can be trusted
